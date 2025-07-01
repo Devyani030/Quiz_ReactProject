@@ -30,7 +30,8 @@ quiz-react-project/
 ## 🔧 Installation & Setup
 
 ### 1. Clone the repo
-git clone https://github.com/Devyani030/Quiz_ReactProject.git
+git clone https://github.com/Devyani030/Quiz_ReactProject.git  
+
 cd Quiz_ReactProject
 
 ### 2. Install dependencies
@@ -42,16 +43,16 @@ cd Quiz_ReactProject
 Open http://localhost:3000 in your browser.
 
 ## 🛠 How It Works
-#### Quiz Data
+#### - Quiz Data
 Stored in `src/data/quizData.js` : each question has text, options, and the correct answer.
 
-#### Quiz Component
+#### - Quiz Component
 Renders current question, tracks user choice, updates score, progresses through questions.
 
-#### Score & Results
+#### - Score & Results
 At the end, shows total score and percentage. Offers a “Restart Quiz” button to reset state.
 
-#### Styling
+#### - Styling
 Simple, responsive CSS contained in `styles.css`.
 
 ## 🧩 Customization

@@ -73,4 +73,4 @@ Simple, responsive CSS contained in `styles.css`.
 
 ## ScreenShot
 
-![Quiz App Screenshot](.src/assets/Screenshot.png)
+![Quiz App Screenshot](./src/assets/Screenshot.png)

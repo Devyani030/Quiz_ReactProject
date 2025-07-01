@@ -43,24 +43,24 @@ cd Quiz_ReactProject
 Open http://localhost:3000 in your browser.
 
 ## 🛠 How It Works
-#### - Quiz Data
+- Quiz Data
 Stored in `src/data/quizData.js` : each question has text, options, and the correct answer.
 
-#### - Quiz Component
+- Quiz Component
 Renders current question, tracks user choice, updates score, progresses through questions.
 
-#### - Score & Results
+- Score & Results
 At the end, shows total score and percentage. Offers a “Restart Quiz” button to reset state.
 
-#### - Styling
+- Styling
 Simple, responsive CSS contained in `styles.css`.
 
 ## 🧩 Customization
-Add/edit questions: Modify `quizData.js` to include new quizzes.
+- Add/edit questions: Modify `quizData.js` to include new quizzes.
 
-Adjust scoring: Change scoring logic in the `Quiz` component.
+- Adjust scoring: Change scoring logic in the `Quiz` component.
 
-Styling tweaks: Customize in `styles.css` or integrate Tailwind, Bootstrap, etc.
+- Styling tweaks: Customize in `styles.css` or integrate Tailwind, Bootstrap, etc.
 
 ## 📈 Further Enhancements
 | Feature            | Description                                           |
@@ -71,3 +71,6 @@ Styling tweaks: Customize in `styles.css` or integrate Tailwind, Bootstrap, etc.
 | Scoreboard         | Save scores using local storage or backend           |
 | Responsive Design  | Improve UI for tablets and phones using media queries|
 
+## ScreenShot
+
+![Quiz App Screenshot](./assets/screenshot.png)

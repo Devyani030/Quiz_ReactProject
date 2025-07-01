@@ -29,19 +29,16 @@ quiz-react-project/
 ```
 ## 🔧 Installation & Setup
 
-#### 1. Clone the repo
+### 1. Clone the repo
 git clone https://github.com/Devyani030/Quiz_ReactProject.git
 cd Quiz_ReactProject
 
-#### 2. Install dependencies
-npm install
-# or
-yarn install
+### 2. Install dependencies
+`npm install`
 
-#### 3. Start development server
-npm start
-# or
-yarn start
+### 3. Start development server
+`npm run dev`
+
 Open http://localhost:3000 in your browser.
 
 ## 🛠 How It Works

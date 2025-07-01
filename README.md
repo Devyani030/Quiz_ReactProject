@@ -1,12 +1,75 @@
-# React + Vite
+## 🎯 Project Title
+#### Quiz React Project
+A dynamic quiz app built with React — displays questions, tracks scores, and offers a smooth interactive experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
+(Add a link if hosted, e.g. on Netlify, Vercel, or GitHub Pages.)
 
-Currently, two official plugins are available:
+## 💡 Features
+- Multiple-choice quiz with dynamic question rendering
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Score calculation and final result display
 
-## Expanding the ESLint configuration
+- Option to restart the quiz
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Clean, responsive interface
+
+- Easy-to-extend question bank
+
+## 📁 Project Structure
+```
+quiz-react-project/
+├── public/           # Static assets (index.html, favicon, etc.)
+└── src/
+    ├── components/   # React components (Quiz, QuestionCard, Result, etc.)
+    ├── data/         # quizData.js – static question data
+    ├── App.js        # Main app wrapper
+    ├── index.js      # React mounting point
+    └── styles.css    # App styling
+```
+## 🔧 Installation & Setup
+
+#### 1. Clone the repo
+git clone https://github.com/Devyani030/Quiz_ReactProject.git
+cd Quiz_ReactProject
+
+#### 2. Install dependencies
+npm install
+# or
+yarn install
+
+#### 3. Start development server
+npm start
+# or
+yarn start
+Open http://localhost:3000 in your browser.
+
+## 🛠 How It Works
+#### Quiz Data
+Stored in `src/data/quizData.js` : each question has text, options, and the correct answer.
+
+#### Quiz Component
+Renders current question, tracks user choice, updates score, progresses through questions.
+
+#### Score & Results
+At the end, shows total score and percentage. Offers a “Restart Quiz” button to reset state.
+
+#### Styling
+Simple, responsive CSS contained in `styles.css`.
+
+## 🧩 Customization
+Add/edit questions: Modify `quizData.js` to include new quizzes.
+
+Adjust scoring: Change scoring logic in the `Quiz` component.
+
+Styling tweaks: Customize in `styles.css` or integrate Tailwind, Bootstrap, etc.
+
+## 📈 Further Enhancements
+| Feature            | Description                                           |
+|--------------------|-------------------------------------------------------|
+| Timer              | Add a countdown timer per question                   |
+| Difficulty Levels  | Categorize questions into Easy, Medium, Hard         |
+| API Integration    | Fetch questions from an external trivia API          |
+| Scoreboard         | Save scores using local storage or backend           |
+| Responsive Design  | Improve UI for tablets and phones using media queries|
+
